@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-Pharma-Cart</title>
+    <link rel="icon" type="image/x-icon" href="https://iconifier.net/iconified/cf_64d8dc9016e3f_android-chrome-512x512/favicon.ico">
+    <link rel="stylesheet" href="../Styles/cart.css">
+
+      <!-- linking foooter css -->
+      <link rel="stylesheet" href="../Styles/footer.css">
+      <!-- linking  header.css -->
+      <link rel="stylesheet" href="../Header/header.css">
+</head>
+
+<body>
+    <header>
+        <img src="../pages/img/img/favicon-32x32.png" alt="Shop-Pharma logo"/>
+    </header>
+    <section class="cart-section">
+        <div class="navigator">
+            <a href="../index.html">
+                <p>Home</p>
+            </a>
+            <p>Cart</p>
+        </div>
+        <div class="cart-container">
+            <div class="cart-left">
+                <div class="cart-left-noOfItemsDiv">
+                    <h1><span class="cart-left-noOfItems"></span> Items in your Cart</h1>
+                </div>
+                <div class="cart-left-cartItems"></div>
+            </div>
+            <div class="cart-right">
+                <div class="cart-right-upper">
+                    <div>
+                        <p>Cart Total:<span class="cart-right-upper-itemTotal"></span></p>
+                    </div>
+                    <div>
+                        <button class="proceedToCheckout-btn">Proceed to Checkout</button>
+                    </div>
+                </div>
+                <div class="cart-right-lower">
+                    <div>
+                        <h1>Bill Summary</h1>
+                    </div>
+                    <div>
+                        <div>
+                            <p>CartValue</p>
+                            <span class="cart-right-lower-itemTotal"></span>
+                        </div>
+                        <!-- <div><p>Discount</p><span class="cart-right-lower-discount"></span></div> -->
+                    </div>
+                    <hr>
+                    <div class="cart-right-lower-tobePaidDiv">
+                        <p>Amount to be paid</p>
+                        <span class="cart-right-lower-tobePaid"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
